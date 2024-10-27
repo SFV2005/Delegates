@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string dirExample = "c:\\espp_elpwin\\restore";
+        string dirExample = Directory.GetCurrentDirectory(); 
 
         List<CollectionIntValueClass> IntValuesList = new List<CollectionIntValueClass>
         {
